@@ -6,8 +6,7 @@ This below steps can be followed to get the MAC details...
 	#docker build -t get_macaddr:0.0.1 .
 
 2. Execute the docker with created image. I have considered the macaddres.io API key as an environment and provide the MAC address as an argument. -
-<<<<<<< HEAD
-	#docker run --env API_KEY="Your api key" get_macaddr:0.0.1 <MAC Address>
+	#docker run --env API_KEY="Your api key" get_macaddr:0.0.1 [MAC Address]
 
 
 Ex- 
@@ -36,6 +35,3 @@ assignmentBlockSize => MA-L
 borderRight => 000202FFFFFF
 dateUpdated => 2015-09-27
 
-=======
-	#docker run --env API_KEY="Your api key" get_macaddr:0.0.1 [MAC Address]
->>>>>>> 35da9aa09f4152c9eaa58ca9e428b04e8ede643e
